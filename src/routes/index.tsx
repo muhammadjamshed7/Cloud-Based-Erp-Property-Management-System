@@ -948,7 +948,6 @@ const uiRoutes = {
         {
           path: "/ui/googlemaps",
           name: "Google Maps",
-          // element: <GoogleMaps />,
           route: PrivateRoute,
         },
         {
