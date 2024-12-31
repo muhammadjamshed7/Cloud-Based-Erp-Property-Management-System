@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Dropdown, Row, Col } from "react-bootstrap";
 
 // components
-import { WorldVectorMap } from "../../../../components/VectorMap/";
+// import { WorldVectorMap } from "../../../../components/VectorMap/";
 import ChartStatistics from "../../../../components/ChartStatistics";
 
 const RevenueDetails = () => {
@@ -58,7 +58,7 @@ const RevenueDetails = () => {
 
           <div className="widget-chart text-center" dir="ltr">
             <div className="mt-4">
-              <WorldVectorMap height="230px" width="100%" options={options} />
+              {/* <WorldVectorMap height="230px" width="100%" options={options} /> */}
             </div>
 
             <h5 className="text-muted mt-4">Total sales made today</h5>

@@ -2,7 +2,7 @@ import React from "react";
 
 // components
 import { BasicPortlet } from "../../../components/Portlet";
-import { WorldVectorMap } from "../../../components/VectorMap/";
+// import { WorldVectorMap } from "../../../components/VectorMap/";
 
 const RevenueChart = () => {
   // vector map config
@@ -123,7 +123,7 @@ const RevenueChart = () => {
     <>
       <BasicPortlet cardTitle="Revenue By Location" titleClass="header-title">
         <div id="world-map-markers">
-          <WorldVectorMap height="433px" width="100%" options={options} />
+          {/* <WorldVectorMap height="433px" width="100%" options={options} /> */}
         </div>
       </BasicPortlet>
     </>

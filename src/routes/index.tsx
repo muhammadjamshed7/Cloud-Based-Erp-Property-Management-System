@@ -189,8 +189,8 @@ const ApexChart = React.lazy(() => import("../pages/charts/Apex"));
 const ChartJs = React.lazy(() => import("../pages/charts/ChartJs"));
 
 // maps
-const GoogleMaps = React.lazy(() => import("../pages/maps/GoogleMaps"));
-const VectorMaps = React.lazy(() => import("../pages/maps/VectorMaps"));
+// const GoogleMaps = React.lazy(() => import("../pages/maps/GoogleMaps"));
+// const VectorMaps = React.lazy(() => import("../pages/maps/VectorMaps"));
 
 export interface RoutesProps {
   path: RouteProps["path"];
@@ -948,13 +948,13 @@ const uiRoutes = {
         {
           path: "/ui/googlemaps",
           name: "Google Maps",
-          element: <GoogleMaps />,
+          // element: <GoogleMaps />,
           route: PrivateRoute,
         },
         {
           path: "/ui/vectorMaps",
           name: "Google Maps",
-          element: <VectorMaps />,
+          // element: <VectorMaps />,
           route: PrivateRoute,
         },
       ],
