@@ -1,5 +1,5 @@
 import WorldVectorMap from "./WorldMap";
-import CanadaVectorMap from "./CanadaMap";
+// import CanadaVectorMap from "./CanadaMap";
 import RussiaVectorMap from "./RussiaMap";
 import SpainVectorMap from "./SpainMap";
 import UsaVectorMap from "./UsaVectorMap";
@@ -8,7 +8,7 @@ import IraqVectorMap from "./IraqVectorMap";
 
 export {
   WorldVectorMap,
-  CanadaVectorMap,
+  // CanadaVectorMap,
   RussiaVectorMap,
   SpainVectorMap,
   UsaVectorMap,

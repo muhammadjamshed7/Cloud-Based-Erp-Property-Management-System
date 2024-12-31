@@ -8,7 +8,7 @@ import PageTitle from "../../components/PageTitle";
 import { WorldVectorMap } from "../../components/VectorMap";
 import { RussiaVectorMap } from "../../components/VectorMap";
 import { SpainVectorMap } from "../../components/VectorMap";
-import { CanadaVectorMap } from "../../components/VectorMap";
+// import { CanadaVectorMap } from "../../components/VectorMap";
 import { UsaVectorMap } from "../../components/VectorMap";
 import { ItalyVectorMap } from "../../components/VectorMap";
 import { IraqVectorMap } from "../../components/VectorMap";
@@ -135,7 +135,7 @@ const VectorMaps = () => {
           <Card>
             <Card.Body>
               <h4 className="header-title mb-3">Canada Vector Map</h4>
-              <CanadaVectorMap
+              {/* <CanadaVectorMap
                 height="300px"
                 width="100%"
                 options={{
@@ -147,7 +147,7 @@ const VectorMaps = () => {
                     },
                   },
                 }}
-              />
+              /> */}
             </Card.Body>
           </Card>
         </Col>
